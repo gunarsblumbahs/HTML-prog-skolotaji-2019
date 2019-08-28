@@ -1,10 +1,26 @@
 <html>
-  <head>
+
+<head>
     <title>Piemērs</title>
-  </head>
-  <body>
-    <script>
-      console.log('Sveika pasaule!');
+</head>
+
+<body>
+    <script type="text/javascript">
+        const a = 5;
+        let b = 3;
+        let pazinojums;
+        if (a !== b) {
+            pazinojums = `${a} nav vienāds ar ${b}`;
+        } else {
+            pazinojums = a + " ir vienads ar " + b;
+        }
+        console.log(pazinojums);
+
+        let rr = parseFloat(prompt("Rinka radius?"));
+        
+        console.log(` jus ievadijat ${rr.toFixed(3)}`);
+        
     </script>
-  </body>
+</body>
+
 </html>
